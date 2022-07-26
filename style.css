@@ -7,11 +7,11 @@ body {
     
 }
 
-/*  !  HEADER-start */
+/*  !  HEADER-start                    */
 .header{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .header-left {
@@ -27,9 +27,7 @@ body {
 }
 
  /**  NAVBAR-start                     */
-
 .navbar {
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     margin-left: 40px;  
@@ -50,7 +48,6 @@ body {
     font-weight: bolder;
     font-family: sans-serif;
 }
-
 /**  NAVBAR-end *                       */
 
 .header-right {
@@ -66,10 +63,10 @@ body {
     text-decoration: none;
     color: #fff;
 }
+/*  !  HEADER-end                            */
 
-/*  !  HEADER-end */
 
-/*  !  CONTENT-start */
+/*  !  CONTENT-start                         */
 .section {
     background-image:url('/img/body/zyro-image.png');
     background-repeat: no-repeat;
@@ -92,11 +89,7 @@ body {
 .img-movie {
     margin: 200px 50px 50px;
     max-width: 500px;
-    /* position: fixed; */
 }
-/* .rank {
-    padding-right: 50px;
-} */
 
 .padding{
     padding-left: 50px;
@@ -180,6 +173,27 @@ body {
     }
 }
 
+@media screen and (max-width: 694px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+}
+
 .progress-bar {
     display: flex;
     align-items: flex-start;
@@ -187,7 +201,6 @@ body {
     height: 3px;
     width: 175px;
     margin-left: 20%;
-    /* position:; */
     top: 168px;
 }
 
@@ -220,17 +233,14 @@ body {
     max-width: 145px;
     object-fit: scale-down;
 }
-
 /*  !  CONTENT-end                      */
 
-/*!  FOOTER-start                       */
 
+/*!  FOOTER-start                       */
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* margin: auto; */
-    
 }
 
 .footer a {
@@ -240,7 +250,6 @@ body {
     margin:10px;
     font-size: 13px;
     font-weight: lighter;
-
 }
 
 .block{
@@ -308,7 +317,6 @@ body {
     color: gray;
     font-size: 12px;
 }
-
 /*!  FOOTER-end                       */
 
 
