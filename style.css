@@ -2,6 +2,156 @@
 
 * { margin: 0; padding: 0;}
 
+/* !  @media-card */
+@media screen and (max-width: 2288px) {
+    .card7{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1968px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1647px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1335px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1031px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card-img-size{
+        width: 290px;
+    }
+    #navbar-display{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+    .card-img-size{
+        width: 200px;
+    }
+    #navbar-display{
+        display: none;
+    }
+    #header-right-display{
+        display: none;
+    }
+    .img-movie-name{
+        width: 300px;
+    }
+    .img-original-movie-size{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+    .card-img-size{
+        width: 180px;
+    }
+    #navbar-display{
+        display: none;
+    }
+    #header-right-display{
+        display: none;
+    }
+    .img-movie-name{
+        width: 250px;
+    }
+    .img-original-movie-size{
+        width: 180px;
+    }
+    .link-group{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* ? isimlendirme ?  */
+.padding{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
 body {
     background-color: #000;
     
@@ -77,24 +227,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/*     
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    display: flex;
-    flex-direction: column;
-    /* position: absolute; */
-    
 }
-.img-movie {
+
+.img-movie-name {
     margin: 200px 50px 50px;
     max-width: 500px;
 }
 
-.padding{
-    padding-left: 50px;
-    padding-bottom: 20px;
-}
 .button {
     padding: 10px 20px 10px;
     border-radius: 5px;
@@ -110,88 +249,6 @@ body {
 
 .button-play{
     background-color: #fff;
-}
-
-@media screen and (max-width: 2288px) {
-    .card7{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1968px) {
-    .card7{
-        display: none;
-    }
-    .card6{
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 1647px) {
-    .card7{
-        display: none;
-    }
-    .card6{
-        display: none;
-    }
-    .card5{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1335px) {
-    .card7{
-        display: none;
-    }
-    .card6{
-        display: none;
-    }
-    .card5{
-        display: none;
-    }
-    .card4{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1031px) {
-    .card7{
-        display: none;
-    }
-    .card6{
-        display: none;
-    }
-    .card5{
-        display: none;
-    }
-    .card4{
-        display: none;
-    }
-    .card3{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 694px) {
-    .card7{
-        display: none;
-    }
-    .card6{
-        display: none;
-    }
-    .card5{
-        display: none;
-    }
-    .card4{
-        display: none;
-    }
-    .card3{
-        display: none;
-    }
-    .card2{
-        display: none;
-    }
 }
 
 .progress-bar {
@@ -318,6 +375,3 @@ body {
     font-size: 12px;
 }
 /*!  FOOTER-end                       */
-
-
-

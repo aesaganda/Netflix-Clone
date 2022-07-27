@@ -5,24 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="discription" content="Netflix nedir? Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir web platformudur.">
+    <meta name="discription" 
+    content="Netflix nedir? Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir web platformudur.">
     <meta name="author" content="Melih Afşar">
-    <meta http-equiv="refresh" content="1000">
+    <meta http-equiv="refresh" content="10000">
     <meta name="keywords" content="video,film,movie,action,actor,">
     <title>Netflix Türkiye - TV Programlarını Çevrimiçi İzleyin, Filmleri Çevrimiçi İzleyin</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <!-- * HEADER-start -->
     <div class="header">
+        <!-- * header-left-start  -->
         <div class="header-left">
             <div class="netflix-logo">
-                <img src="/img/header/netflixlogosvg@2x.svg" alt="netflix-logo" title="https://www.netflix.com/tr/">
+                <img src="./img/header/netflixlogosvg@2x.svg" alt="netflix-logo" title="https://www.netflix.com/tr/">
             </div>
-            <div class="navbar">
+            <div class="navbar" id="navbar-display">
                 <div style="width: 100px;" class="navbar-link-homepage text-white">
                     <a href="#">Ana Sayfa</a>
                 </div>
@@ -40,205 +60,225 @@
                 </div>
             </div>
         </div>
-        <!-- * header-left-end -->
-        <div class="header-right">
+        <!-- * header-left-end  -->
+
+        <!-- * header-right-start  -->
+        <div class="header-right" id="header-right-display">
             <div class="search-button">
-                <a href="#"><img src="/img/header/search@2x.svg" alt="search-button"></a>
+                <a href="#"><img src="./img/header/search@2x.svg" alt="search-button"></a>
             </div>
             <div class="child">
                 <a href="#">ÇOCUK</a>
             </div>
             <div class="giftbox">
-                <a href="#"><img src="/img/header/giftbox@2x.svg" alt="giftbox"></a>
+                <a href="#"><img src="./img/header/giftbox@2x.svg" alt="giftbox"></a>
             </div>
             <div class="notificationbell">
-                <a href="#"><img src="/img/header/notificationbell@2x.svg" alt="notification-bell"></a>
+                <a href="#"><img src="./img/header/notificationbell@2x.svg" alt="notification-bell"></a>
             </div>
             <div class="profile">
-                <a href="#"><img style="width: 25px;" src="/img/header/profileimg@2x.png" alt="profile"></a>
+                <a href="#"><img style="width: 25px;" src="./img/header/profileimg@2x.png" alt="profile"></a>
             </div>
             <div class="down-bar">
-                <a href="#"><img src="/img/header/downarrow@2x.svg" alt="down-bar"></a>
+                <a href="#"><img src="./img/header/downarrow@2x.svg" alt="down-bar"></a>
             </div>
-
         </div>
+        <!-- * header-right-end  -->
     </div>
     <!-- *HEADER-end -->
 
-    <!-- *  SECTION-start-->
+    <!-- *  SECTION-main-start-->
     <div class="section">
         <div class="content">
-            <img class="img-movie" src="/img/body/moviename@2x.png" alt="Yanımda Kal" title="Yanımda Kal">
+            <img class="img-movie-name" src="./img/body/moviename@2x.png" alt="Yanımda Kal" title="Yanımda Kal">
             <div class="rank">
                 <div class="padding">
-                    <img src="/img/body/top10badge@2x.svg" alt="Top10">
+                    <img src="./img/body/top10badge@2x.svg" alt="Top10">
                     <h1 style="color: white;display: inline; padding-left: 20px ;">Türkiye'de Bugün 4 Numara</h1>
                 </div>
             </div>
             <p class="padding" style="color: white; font-size: 26px; max-width: 700px;">Küçük yaşta başının çaresine bakmayı öğrenen ve çok çalışarak iş dünyasında önemli bir konuma gelen Emir, bir gün sokak şarkıcısı bir kızla karşılaşır ve hayatı değişir.</p>
             <div class="information padding">
-                <button class="button button-play">
-                    <img src="/img/body/play@2x.svg" alt="play">
+                <button class="button button-play" onclick="location.href='#';" style="cursor:pointer;">
+                    <img src="./img/body/play@2x.svg" alt="play">
                     <span>Oynat</span>
                 </button>
-                <button class="button button-info">
-                    <img src="/img/body/detail@2x.svg" alt="play">
+                <button class="button button-info" onclick="location.href='#';" style="cursor:pointer;">
+                    <img src="./img/body/detail@2x.svg" alt="play">
                     <span>Daha Fazla Bilgi</span>
                 </button>
             </div>
             <div class="popular padding">
                 <h2 style="color: white; padding-bottom: 15px; padding-left: 30px;">Netflix'te Populer</h2>
                 <div class="slider">
-                    <img class="" src="/img/body/arrowleft-3@2x.svg" alt="">
-                    <div class="card card1"><img class="card-img-size" src="/img/body/amsterdam-y.png" alt="" ></div>
-                    <div class="card card2"><img class="card-img-size" src="/img/body/moden-f.png" alt=""></div>
-                    <div class="card card3"><img class="card-img-size" src="/img/body/leyla-mecnun.png" alt=""></div>
-                    <div class="card card4"><img class="card-img-size" src="/img/body/50m2p.png" alt=""></div>
-                    <div class="card card5"><img class="card-img-size" src="/img/body/snow.png" alt=""></div>
-                    <div class="card card6"><img class="card-img-size" src="/img/body/brooklyn.png" alt=""></div>
-                    <div class="card card7"><img class="card-img-size" src="/img/body/yanimda2.png" alt=""></div>
-                    <img class="" src="/img/body/arrowleft@2x.svg" alt="">
+                    <img class="" src="./img/body/arrowleft-3@2x.svg" alt="">
+                    <a class="card card1" href="#">
+                        <img class="card-img-size" src="./img/body/amsterdam-y.png" alt="" >
+                    </a>
+                    <a class="card card2" href="#">
+                        <img class="card-img-size" src="./img/body/moden-f.png" alt="">     
+                    </a>
+                    <a class="card card3" href="#">
+                        <img class="card-img-size" src="./img/body/leyla-mecnun.png" alt="">
+                    </a>
+                    <a class="card card4" href="#">
+                        <img class="card-img-size" src="./img/body/50m2p.png" alt="">       
+                    </a>
+                    <a class="card card5" href="#">
+                        <img class="card-img-size" src="./img/body/snow.png" alt="">        
+                    </a>
+                    <a class="card card6" href="#">
+                        <img class="card-img-size" src="./img/body/brooklyn.png" alt="">    
+                    </a>
+                    <a class="card card7" href="#">
+                        <img class="card-img-size" src="./img/body/yanimda2.png" alt="">    
+                    </a>
+                    <img class="" src="./img/body/arrowleft@2x.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <!-- *  SECTION-end-->
+    <!-- *  SECTION-main-end-->
 
     <!-- * SECTION-start -->
     
     <div class="special padding">
         <h2 style="color: white; padding: 10px 30px;">Melih, İzlemeye Devam Et</h2>
         <div class="slider">
-            <img class="" src="/img/body/arrowleft-3@2x.svg" alt="" srcset="">
-            <div class="card card1">
-                <img class="card-img-size" src="/img/body/brooklyn.png" alt="" srcset="">
+            <img class="" src="./img/body/arrowleft-3@2x.svg" alt="">
+            <a class="card card1" href="#">
+                <img class="card-img-size" src="./img/body/brooklyn.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <div class="card card2"><img class="card-img-size" src="/img/body/ginny2.png" alt="" srcset="">
+            </a>
+            <a class="card card2" href="#"><img class="card-img-size" src="./img/body/ginny2.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <div class="card card3"><img class="card-img-size" src="/img/body/inanc.png" alt="" srcset="">
+            </a>
+            <a class="card card3" href="#"><img class="card-img-size" src="./img/body/inanc.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <div class="card card4"><img class="card-img-size" src="/img/body/witcher.png" alt="" srcset="">
+            </a>
+            <a class="card card4" href="#"><img class="card-img-size" src="./img/body/witcher.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <div class="card card5"><img class="card-img-size" src="/img/body/howi.png" alt="" srcset="">
+            </a>
+            <a class="card card5" href="#"><img class="card-img-size" src="./img/body/howi.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <div class="card card6"><img class="card-img-size" src="/img/body/lupin.png" alt="" srcset="">
+            </a>
+            <a class="card card6" href="#"><img class="card-img-size" src="./img/body/lupin.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <div class="card card7"><img class="card-img-size" src="/img/body/leyla-mecnun.png" alt="" srcset="">
+            </a>
+            <a class="card card7" href="#"><img class="card-img-size" src="./img/body/leyla-mecnun.png" alt="">
                 <div class="progress-bar">
                     <div class="progress"></div>
                 </div>
-            </div>
-            <img class="" src="/img/body/arrowleft@2x.svg" alt="" srcset="">
+            </a>
+            <img class="" src="./img/body/arrowleft@2x.svg" alt="">
         </div>
     </div>
 
     <div class="agenda padding">
         <h2 style="color: white; padding: 10px 30px;">Gündemdekiler</h2>
         <div class="slider">
-            <img class="" src="/img/body/arrowleft-3@2x.svg" alt="" srcset="">
-            <div class="card card1"><img class="card-img-size" src="/img/body/lupin.png" alt="" srcset=""></div>
-            <div class="card card2"><img class="card-img-size" src="/img/body/harry.png" alt="" srcset=""></div>
-            <div class="card card3"><img class="card-img-size" src="/img/body/murder.png" alt="" srcset=""></div>
-            <div class="card card4"><img class="card-img-size" src="/img/body/ricky.png" alt="" srcset=""></div>
-            <div class="card card5"><img class="card-img-size" src="/img/body/witcher.png" alt="" srcset=""></div>
-            <div class="card card6"><img class="card-img-size" src="/img/body/tarih.png" alt="" srcset=""></div>
-            <div class="card card7"><img class="card-img-size" src="/img/body/sir.png" alt="" srcset=""></div>
-            <img class="" src="/img/body/arrowleft@2x.svg" alt="" srcset="">
+            <img class="" src="./img/body/arrowleft-3@2x.svg" alt="">
+            <a class="card card1" href="#"><img class="card-img-size" src="./img/body/lupin.png"    alt=""></a>
+            <a class="card card2" href="#"><img class="card-img-size" src="./img/body/harry.png"    alt=""></a>
+            <a class="card card3" href="#"><img class="card-img-size" src="./img/body/murder.png"   alt=""></a>
+            <a class="card card4" href="#"><img class="card-img-size" src="./img/body/ricky.png"    alt=""></a>
+            <a class="card card5" href="#"><img class="card-img-size" src="./img/body/witcher.png"  alt=""></a>
+            <a class="card card6" href="#"><img class="card-img-size" src="./img/body/tarih.png"    alt=""></a>
+            <a class="card card7" href="#"><img class="card-img-size" src="./img/body/sir.png"      alt=""></a>
+            <img class="" src="./img/body/arrowleft@2x.svg" alt="">
         </div>
     </div>
 
-    <div class="agenda padding">
+    <div class="original padding">
         <h2 style="color: white; padding: 10px 30px;">Netflix Orijinal İçerikleri</h2>
         <div class="slider">
-            <img class="" src="/img/body/arrowleft-3@2x.svg" alt="" srcset="">
-            <div class="card card1"><img src="/img/body/Anne-with.png" alt="" srcset=""></div>
-            <div class="card card2"><img src="/img/body/ginny-17@1x.png" alt="" srcset=""></div>
-            <div class="card card3"><img src="/img/body/50m2.png" alt="" srcset=""></div>
-            <div class="card card4"><img src="/img/body/tribes.png" alt="" srcset=""></div>
-            <div class="card card5"><img src="/img/body/Anne-with.png" alt="" srcset=""></div>
-            <div class="card card6"><img src="/img/body/tribes.png" alt="" srcset=""></div>
-            <div class="card card7"><img src="/img/body/Anne-with.png" alt="" srcset=""></div>
-            <img class="" src="/img/body/arrowleft@2x.svg" alt="" srcset="">
+            <img class="" src="./img/body/arrowleft-3@2x.svg" alt="">
+            <a class="card card1" href="#"><img class="img-original-movie-size" src="./img/body/Anne-with.png"   alt=""></a>
+            <a class="card card2" href="#"><img class="img-original-movie-size" src="./img/body/ginny-17@1x.png" alt=""></a>
+            <a class="card card3" href="#"><img class="img-original-movie-size" src="./img/body/50m2.png"        alt=""></a>
+            <a class="card card4" href="#"><img class="img-original-movie-size" src="./img/body/tribes.png"      alt=""></a>
+            <a class="card card5" href="#"><img class="img-original-movie-size" src="./img/body/Anne-with.png"   alt=""></a>
+            <a class="card card6" href="#"><img class="img-original-movie-size" src="./img/body/tribes.png"      alt=""></a>
+            <a class="card card7" href="#"><img class="img-original-movie-size" src="./img/body/Anne-with.png"   alt=""></a>
+            <img class="" src="./img/body/arrowleft@2x.svg" alt="">
         </div>
     </div>
+
+    <!-- ? isimlendirme -->
+    <!-- ?  sayıların yazı ile yazılmasi-->
+
 
     <div class="top10 padding">
         <h2 style="color: white; padding: 10px 30px;">Türkiye'de Bugünün Top 10 Listesi</h2>
         <div class="slider">
-            <img class="" src="/img/body/arrowleft-3@2x.svg" alt="left-arrrow">
+            <img class="" src="./img/body/arrowleft-3@2x.svg" alt="left-arrrow">
             <div class="card card1">
-                <img class="top10-img-size" src="/img/body/rank---01@2x.svg" alt="1">
-                <img class="top10-img-size" src="/img/body/nobetci.png" alt="nobetci-afis">
+                <img class="top10-img-size" src="./img/body/rank---01@2x.svg"   alt="1">
+                <img class="top10-img-size" src="./img/body/nobetci.png"        alt="nobetci-afis">
             </div>
             <div class="card card2">
-                <img class="top10-img-size" src="/img/body/rank---02@2x.svg" alt="2">
-                <img class="top10-img-size" src="/img/body/gozlerin.png" alt="gozlerinin-ardinda">
+                <img class="top10-img-size" src="./img/body/rank---02@2x.svg"   alt="2">
+                <img class="top10-img-size" src="./img/body/gozlerin.png"       alt="gozlerinin-ardinda">
             </div>
             <div class="card card3">
-                <img class="top10-img-size" src="/img/body/rank---03@2x.svg" alt="3">
-                <img class="top10-img-size" src="/img/body/amsterdam.png" alt="new-amsterdam">
+                <img class="top10-img-size" src="./img/body/rank---03@2x.svg"   alt="3">
+                <img class="top10-img-size" src="./img/body/amsterdam.png"      alt="new-amsterdam">
             </div>
             <div class="card card4">
-                <img class="top10-img-size" src="/img//body/rank---04@2x.svg" alt="4">
-                <img class="top10-img-size" src="/img/body/yanimdaKal.png" alt="yanimda-kal">
+                <img class="top10-img-size" src="./img//body/rank---04@2x.svg"  alt="4">
+                <img class="top10-img-size" src="./img/body/yanimdaKal.png"     alt="yanimda-kal">
             </div>
             <div class="card card5">
-                <img class="top10-img-size" src="/img/body/rank---05@2x.svg" alt="5">
-                <img class="top10-img-size" src="/img/body/ginny.png" alt="ginniy-georgia">
+                <img class="top10-img-size" src="./img/body/rank---05@2x.svg"   alt="5">
+                <img class="top10-img-size" src="./img/body/ginny.png"          alt="ginniy-georgia">
             </div>
             <div class="card card6">
-                <img class="top10-img-size" src="/img/body/6.svg" alt="6">
-                <img class="top10-img-size" src="/img/body/nobetci.png" alt="nobetci">
+                <img class="top10-img-size" src="./img/body/6.svg"              alt="6">
+                <img class="top10-img-size" src="./img/body/nobetci.png"        alt="nobetci">
             </div>
-            <img class="" src="/img/body/arrowleft@2x.svg" alt="right-arrow">
+            <img class="" src="./img/body/arrowleft@2x.svg" alt="right-arrow">
         </div>
     </div>
 
     <div class="watch-again padding">
         <h2 style="color: white; padding: 10px 30px;">Yeniden İzle</h2>
         <div class="slider">
-            <img class="" src="/img/body/arrowleft-3@2x.svg" alt="" srcset="">
-            <div class="card card1"><img class="card-img-size" src="/img/body/howi.png" alt="" srcset=""></div>
-            <div class="card card2"><img class="card-img-size" src="/img/body/harry.png" alt="" srcset=""></div>
-            <div class="card card3"><img class="card-img-size" src="/img/body/lupin.png" alt="" srcset=""></div>
-            <div class="card card4"><img class="card-img-size" src="/img/body/murder.png" alt="" srcset=""></div>
-            <div class="card card5"><img class="card-img-size" src="/img/body/leyla-mecnun.png" alt="" srcset=""></div>
-            <div class="card card6"><img class="card-img-size" src="/img/body/yanimda2.png" alt="" srcset=""></div>
-            <div class="card card7"><img class="card-img-size" src="/img/body/orphan.png" alt="" srcset=""></div>
-            <img class="" src="/img/body/arrowleft@2x.svg" alt="" srcset="">
+            <img class="" src="./img/body/arrowleft-3@2x.svg" alt="">
+            <a class="card card1" href="#"><img class="card-img-size" src="./img/body/howi.png"         alt=""></a>
+            <a class="card card2" href="#"><img class="card-img-size" src="./img/body/harry.png"        alt=""></a>
+            <a class="card card3" href="#"><img class="card-img-size" src="./img/body/lupin.png"        alt=""></a>
+            <a class="card card4" href="#"><img class="card-img-size" src="./img/body/murder.png"       alt=""></a>
+            <a class="card card5" href="#"><img class="card-img-size" src="./img/body/leyla-mecnun.png" alt=""></a>
+            <a class="card card6" href="#"><img class="card-img-size" src="./img/body/yanimda2.png"     alt=""> </a>
+            <a class="card card7" href="#"><img class="card-img-size" src="./img/body/orphan.png"       alt=""></a>
+            <img class="" src="./img/body/arrowleft@2x.svg" alt="">
         </div>
     </div>
     
     <div class="my-list padding">
         <h2 style="color: white; padding: 10px 30px;">Listem</h2>
         <div class="slider">
-            <img class="" src="/img/body/arrowleft-3@2x.svg" alt="" srcset="">
-            <div class="card card1"><img class="card-img-size" src="/img/body/witcher.png" alt="" srcset=""></div>
-            <div class="card card2"><img class="card-img-size" src="/img/body/ricky.png" alt="" srcset=""></div>
-            <div class="card card3"><img class="card-img-size" src="/img/body/tarih.png" alt="" srcset=""></div>
-            <div class="card card4"><img class="card-img-size" src="/img/body/sir.png" alt="" srcset=""></div>
-            <div class="card card5"><img class="card-img-size" src="/img/body/snow.png" alt="" srcset=""></div>
-            <div class="card card6"><img class="card-img-size" src="/img/body/leyla-mecnun.png" alt="" srcset=""></div>
-            <div class="card card7"><img class="card-img-size" src="/img/body/inanc.png" alt="" srcset=""></div>
-            <img class="" src="/img/body/arrowleft@2x.svg" alt="" srcset="">
+            <img class="" src="./img/body/arrowleft-3@2x.svg" alt="">
+            <a class="card card1" href="#"><img class="card-img-size" src="./img/body/witcher.png"     alt=""></a>
+            <a class="card card2" href="#"><img class="card-img-size" src="./img/body/ricky.png"       alt=""></a>
+            <a class="card card3" href="#"><img class="card-img-size" src="./img/body/tarih.png"       alt=""></a>
+            <a class="card card4" href="#"><img class="card-img-size" src="./img/body/sir.png"         alt=""></a>
+            <a class="card card5" href="#"><img class="card-img-size" src="./img/body/snow.png"        alt=""></a>
+            <a class="card card6" href="#"><img class="card-img-size" src="./img/body/leyla-mecnun.png"alt=""></a>
+            <a class="card card7" href="#"><img class="card-img-size" src="./img/body/inanc.png"       alt=""></a>
+            <img class="" src="./img/body/arrowleft@2x.svg" alt="">
         </div>
     </div>
     <!-- *  SECTION-end-->
@@ -249,18 +289,20 @@
         <div class="block">
             <div class="social-media">
                 <div class="media-logo">
-                    <a href="https://tr-tr.facebook.com/netflixturkiye/"><img src="/img/footer/facebook@2x.svg" alt="facebook-logo"></a>
+                    <a href="https://tr-tr.facebook.com/netflixturkiye/"><img src="./img/footer/facebook@2x.svg" alt="facebook-logo"></a>
                 </div>
                 <div class="media-logo">
-                    <a href="https://www.instagram.com/netflixturkiye/?hl=tr"><img src="/img/footer/instagram@2x.svg" alt="instagram-logo"></a>
+                    <a href="https://www.instagram.com/netflixturkiye/?hl=tr"><img src="./img/footer/instagram@2x.svg" alt="instagram-logo"></a>
                 </div>
                 <div class="media-logo">
-                    <a href="https://twitter.com/netflixturkiye?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="/img/footer/twitter@2x.svg" alt="twitter-logo"></a>
+                    <a href="https://twitter.com/netflixturkiye?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="./img/footer/twitter@2x.svg" alt="twitter-logo"></a>
                 </div>
                 <div class="media-logo">
-                    <a href="https://www.youtube.com/c/Netflix/videos"><img src="/img/footer/youtube@2x.svg" alt="youtube-logo"></a>
+                    <a href="https://www.youtube.com/c/Netflix/videos"><img src="./img/footer/youtube@2x.svg" alt="youtube-logo"></a>
                 </div>
             </div>
+
+            <!-- ? liste yapisi? -->
             <div class="link-group">
                 <div class="group">
                     <a href="#">Seslendirme ve Alt Yazı</a>
@@ -284,16 +326,15 @@
                     <a href="#">Kurumsal Bilgiler</a>
                 </div>
             </div>
-            <div class="service-code">
+            <a class="service-code" href="#">
                 <button class="service-code-button">Hizmet Kodu</button>
-            </div>
+            </a>
             <div class="copyright">
                 <span>&copy 1997-2022 Netflix, Inc..</span>
             </div>
         </div>
         <div class="block"></div>
     </div>
-
     <!-- * FOOTER-end -->
 </body>
 </html>
