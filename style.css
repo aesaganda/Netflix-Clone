@@ -2,14 +2,14 @@
 
 * { margin: 0; padding: 0;}
 
-/* !  @media-card */
-@media screen and (max-width: 2288px) {
+/* !  @media-card-start*/
+@media screen and (max-width: 2300px) {
     .card7{
         display: none;
     }
 }
 
-@media screen and (max-width: 1968px) {
+@media screen and (max-width: 2000px) {
     .card7{
         display: none;
     }
@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 1647px) {
+@media screen and (max-width: 1700px) {
     .card7{
         display: none;
     }
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 1335px) {
+@media screen and (max-width: 1400px) {
     .card7{
         display: none;
     }
@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 1031px) {
+@media screen and (max-width: 1100px) {
     .card7{
         display: none;
     }
@@ -67,9 +67,12 @@
     #navbar-display{
         display: none;
     }
+    .arrow{
+        width: 20px;
+    }
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 765px) {
     .card7{
         display: none;
     }
@@ -106,6 +109,15 @@
     }
     .card .progress-bar{
         display: none;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .content p {
+        font-size: 15px;
     }
 }
 
@@ -150,6 +162,26 @@
     .card .progress-bar{
         display: none;
     }
+    .arrow {
+        width: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .content p {
+        font-size: 20px;
+    }
+    .card .most-viewed-img-size{
+        width: 100px;
+        position: relative;
+        left: -30px;
+    }
+    .card .most-viewed-span-size{
+        font-size: 190px;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -193,7 +225,6 @@
     .arrow {
         width: 10px;
     }
-
     h1 {
         font-size: 20px;
     }
@@ -209,7 +240,16 @@
     .card .progress-bar{
         display: none;
     }
+    .card .most-viewed-img-size{
+        width: 80px;
+        position: relative;
+        left: -20px;
+    }
+    .card .most-viewed-span-size{
+        font-size: 150px;
+    }
 }
+/* !  @media-card-end*/
 
 .style-distance{
     padding: 0px 50px 20px;
@@ -383,6 +423,13 @@ p{
 .most-viewed-img-size{
     max-width: 145px;
     object-fit: scale-down;
+}
+
+.most-viewed-span-size{
+    font-size: 280px;
+    color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 8px gray;
 }
 /*  !  CONTENT-end                      */
 
