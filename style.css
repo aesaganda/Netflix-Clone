@@ -94,18 +94,22 @@
     #navbar-display{
         display: none;
     }
-    #header-right-display{
-        display: none;
-    }
     .img-movie-name{
         width: 300px;
     }
     .img-original-movie-size{
         width: 200px;
     }
+    .link-group{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card .progress-bar{
+        display: none;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .card7{
         display: none;
     }
@@ -142,6 +146,68 @@
     .link-group{
         display: flex;
         flex-wrap: wrap;
+    }
+    .card .progress-bar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .card7{
+        display: none;
+    }
+    .card6{
+        display: none;
+    }
+    .card5{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+    .card-img-size{
+        width: 150px;
+    }
+    #navbar-display{
+        display: none;
+    }
+    #header-right-display{
+        display: none;
+    }
+    .img-movie-name{
+        width: 180px;
+    }
+    .img-original-movie-size{
+        width: 150px;
+    }
+    .link-group{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .arrow {
+        width: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 10px;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .media-logo img {
+        width: 20px;
+    }
+    .card .progress-bar{
+        display: none;
     }
 }
 
@@ -266,6 +332,11 @@ p{
     margin: 5px;
 }
 
+.button span{
+    position: relative;
+    top: -7px;
+}
+
 .button-info{
     background: rgba(255, 255, 255, 0.3);color: #fff;
 }
@@ -374,6 +445,12 @@ p{
     align-content: flex-start;
     max-width: min-content ;
     margin: 10px;
+    list-style-type:none
+}
+
+.group li{
+    min-width: max-content;
+    margin: 5px;
 }
 
 .service-code{
