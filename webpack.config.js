@@ -7,7 +7,19 @@ module.exports = {
     indexJS : join(__dirname,'src','js','index.js')
   },
   output: {
-    filename: 'app.min.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(s[ac]ss|css)$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+    ],
   },
 };

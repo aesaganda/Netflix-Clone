@@ -1,3 +1,3 @@
 let sayHi = () =>{
-    console.log("hi")
+    alert("hi")
 }
