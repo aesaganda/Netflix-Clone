@@ -1,10 +1,13 @@
 const { join } = require('path');
 const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 
 module.exports = {
     mode: 'production',
   entry: {
-    indexJS : join(__dirname,'src','js','index.js')
+    indexJS : join(__dirname,'src','js','index.js'),
+    mainCSS: join(__dirname,'src','style','app.scss'),
   },
   output: {
     filename: '[name].js',
@@ -15,11 +18,17 @@ module.exports = {
       {
         test: /\.(s[ac]ss|css)$/i,
         use: [
-          'style-loader',
+          MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader',
         ],
       },
     ],
   },
+  plugins: [
+    new FixStyleOnlyEntriesPlugin(),
+    new MiniCssExtractPlugin({
+      filename : 'app.min.css',
+    }),
+  ],
 };
