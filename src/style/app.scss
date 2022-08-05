@@ -1,11 +1,9 @@
-@import url("./body.css");
-@import url("./header.css");
-@import url("./footer.css");
-/* scss e gecildiginde import kisimlari degistirilmeli*/
-
-@import url('/font/stylesheet.css');
-
-* { margin: 0; padding: 0;}
+@import "./reset";
+@import "./body";
+@import "./header";
+@import "./footer";
+@import "./font";
+@import "./variables";
 
 /* !  @media-card-start*/
 @media screen and (max-width: 2300px) {
